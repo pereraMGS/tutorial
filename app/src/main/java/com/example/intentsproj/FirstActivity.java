@@ -2,10 +2,12 @@ package com.example.intentsproj;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
+import android.widget.Toast;
 
 import java.util.ArrayList;
 
@@ -33,5 +35,11 @@ public class FirstActivity extends AppCompatActivity {
         intent.putExtra("value2", num2);
 
         startActivity(intent);
+
+        Context context = getApplicationContext();
+        CharSequence message = "You just clicked the OK button";
+        int duration = Toast.LENGTH_SHORT;
+        Toast toast = Toast.makeText(context, message, duration);
+        toast.show();
     }
 }
