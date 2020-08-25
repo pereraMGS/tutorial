@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">IntentsProj</string>
+    <string name="enter_num_one">Number 1</string>
+    <string name="enter_num_2">Number 2</string>
+    <string name="number_Tex1"></string>
+    <string name="number_Tex2"></string>
+    <string name="ok_button">Ok</string>
+    <string name="Tex1"></string>
+    <string name="number1">Number 1</string>
+    <string name="number2">Number 2</string>
+    <string name="autofillnum1"></string>
+    <string name="autofillnum2"></string>
+    <string name="calculation"></string>
+    <string name="devider_button">/</string>
+    <string name="plus"></string>
+    <string name="minus"></string>
+    <string name="multiply"></string>
+    <string name="devider"></string>
+</resources>
